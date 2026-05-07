@@ -1,10 +1,9 @@
-# PATROL: Adaptive Decoding with Safety Backtracking
-
+# PATROL: Defending LLMs Against Jailbreak Attacks via Periodic Adversarial Token Rollback
 This repository contains the official implementation and reproduction scripts
 for **PATROL**, a training-free decoding-time defence against jailbreak attacks
 on autoregressive LLMs.
 
-> **Paper:** _PATROL: Adaptive Decoding with Safety Backtracking_ (NeurIPS 2026 submission, anonymous)
+> **Paper:** _PATROL: Defending LLMs Against Jailbreak Attacks via Periodic Adversarial Token Rollback_ (NeurIPS 2026 submission, anonymous)
 > **Anonymous code:** this repository
 
 PATROL wraps any autoregressive LLM served through a decoding-loop interface
