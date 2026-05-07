@@ -1,0 +1,26 @@
+# Generated outputs (regenerate with the scripts in scripts/)
+results/
+results_*/
+figures/
+*.json
+!configs/**/*.yaml
+!configs/**/*.txt
+!examples/**/*.json
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs
+*.out
+*.log
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env
+*api_key*
